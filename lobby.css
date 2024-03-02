@@ -1,5 +1,5 @@
 body {
-  background-color: #f0f0f0;
+  background-image: url(https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1661299215_3-kartinkin-net-p-temnie-foni-dlya-telegramma-krasivo-3.jpg);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -12,7 +12,8 @@ body {
   width: 100%;
   max-width: 400px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #fff0;
+  backdrop-filter: blur(25px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
@@ -20,9 +21,10 @@ body {
 #form__container__header {
   padding: 20px;
   text-align: center;
-  background-color: #5881d5;
-  border-radius: 10px 10px 0 0;
-  color: #fff;
+  background-color: #57575700;
+  backdrop-filter: blur(25px)
+  border-radius: 10px 10px 10px 10px;
+  color: #9c9c9c;
   font-size: 24px;
   margin: 0;
 }
@@ -36,16 +38,17 @@ body {
 input {
   width: 100%;
   margin: 8px 0;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc0;
+  border-radius: 7px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
 input[type="submit"] {
-  background-color: #5881d5;
-  color: #fff;
+  background-color: #5b86ad33;
+  backdrop-filter: blur(100px);
+  color: #ffffffba;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
